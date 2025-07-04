@@ -1,7 +1,10 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
-var nome = "Seu Nome"
-let sobrenome = "Seu Sobrenome"
-
-print("Bem-vindo(a), \(nome) \(sobrenome)!")
+print("escreva o primeiro numero:")
+var num1 = Int(readLine()!)!
+print("escreva o segundo numero:")
+var num2 = Int(readLine()!)!
+var soma = Int(readLine()!)!
+soma = num1 + num2
+print(soma)

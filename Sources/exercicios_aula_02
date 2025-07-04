@@ -1,0 +1,9 @@
+import Foundation
+print("Insira a nota 1 e 2 respectivamente:")
+var nota1 = Double(readLine()!)!
+var nota2 = Double(readLine()!)!
+let media = ((nota1 * 3.5) + (nota2 * 7.5)) / 11
+
+print("MEDIA = ", media)
+let mediaFormatada = String(format: "%.2f", media)
+print("média formatada = \(mediaFormatada)")
